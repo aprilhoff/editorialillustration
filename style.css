@@ -1,0 +1,84 @@
+@import url("https://use.typekit.net/rdo2ytg.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  color: rgb(248, 248, 244);
+      background: #191D20;
+
+}
+
+blockquote {
+    padding-left: 3rem;
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin-bottom: 500px;
+}
+h2{
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+a{
+    color: #FFB200;
+}
+
+.subtitle{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+p{
+    font-family: "georgia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+}
+
+
+.dropCap{
+    display:block;
+    float:left;
+    width:80px;
+    height:90px;
+    font-size: 500%;
+    margin-top: 0;
+    text-align:left;
+    font-family: schwarzkopf-old, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-y: hidden;
+}
+
+canvas {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+}
+
+.fillertext{
+    opacity: 0;
+}
